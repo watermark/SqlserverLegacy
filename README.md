@@ -25,6 +25,7 @@ Example
 
 in your database.php config,
 
+```PHP
 public $default = array(
 	'datasource' => 'SqlserverLegacy.SqlserverLegacySource',
 	'persistent' => false,
@@ -35,6 +36,7 @@ public $default = array(
 	'prefix' => '',
 	'encoding' => 'utf8',
 );
+```
 
 Use models as normal.
 
